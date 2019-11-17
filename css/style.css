@@ -11230,7 +11230,7 @@ h5,
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: .1em;
-    margin-right: 22px;
+    margin-right: 0px;
 }
 
 .ftco-navbar-light.scrolled .nav-link {
