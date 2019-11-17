@@ -2609,6 +2609,25 @@ textarea.form-control.is-invalid {
     align-items: center
 }
 
+.my-box{
+    margin: 200px 0px 100px 100px;
+}
+
+.my-box .subheading{
+    font-size: 40px;
+}
+
+.my-box .myname{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.my-box .free{
+    margin-top: -25px;
+    font-size: 28px;
+    opacity: 0.6;
+}
+
 .form-inline .form-check {
     width: 100%
 }
@@ -3526,7 +3545,14 @@ input[type=button].btn-block {
     }
 }
 
+@media(max-width: 768px){
+    .my-box {
+        margin: 104px 0px 80px 56px;
+    }
+}
+
 @media(min-width:768px) {
+    
     .dropdown-menu-md-left {
         right: auto;
         left: 0
