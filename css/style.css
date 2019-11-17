@@ -949,6 +949,8 @@ pre code {
     margin-left: 91.66667%
 }
 
+
+
 @media(min-width:576px) {
     .col-sm {
         -ms-flex-preferred-size: 0;
@@ -12273,10 +12275,18 @@ textarea.form-control {
     position: relative
 }
 
+@media(max-width:330px){
+    #resume-section{
+        margin-left: 100px !important;
+    }
+}
+
 @media(max-width:767.98px) {
     .ftco-section {
-        padding: 6em 0
+        padding: 6em 0;
+        width: 112%;
     }
+   
 }
 
 .ftco-no-pt {
